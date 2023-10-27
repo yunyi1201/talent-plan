@@ -1,6 +1,5 @@
 use std::collections::{BTreeMap, HashMap};
 use std::ffi::OsStr;
-use std::fmt::write;
 use std::fs::{self, File, OpenOptions};
 use std::io::{self, BufReader, BufWriter, Read, Seek, SeekFrom, Write};
 use std::ops::Range;
